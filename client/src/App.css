@@ -1,0 +1,40 @@
+.upload-container {
+  width: 80%;
+  background-color: #f0f0f0;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px dashed #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  padding: 20px;
+}
+
+.upload-container:hover {
+  border-color: #000;
+}
+
+.upload-icon {
+  font-size: 120px;
+}
+
+.upload-text {
+  font-size: 20px;
+  color: #ccc;
+  user-select: none;
+}
+
+.preview-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.upload-file {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

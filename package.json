@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "server": "npm -C server start",
+    "client": "npm -C client start"
+  }
+}
